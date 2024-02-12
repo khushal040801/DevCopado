@@ -164,6 +164,14 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -179,14 +187,6 @@
         <trackTrending>false</trackTrending>
         <type>Email</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Field_Five__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field Five</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
     </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
