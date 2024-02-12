@@ -188,6 +188,16 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Order_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Name</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
         <active>true</active>
